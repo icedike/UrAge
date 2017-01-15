@@ -39,7 +39,7 @@ extension ViewController{
             UserDefaults.standard.synchronize()
         }
         
-        Timer.scheduledTimer(timeInterval: 0.001,
+        Timer.scheduledTimer(timeInterval: 0.01,
                              target: self,
                              selector: #selector(self.showUrAge),
                              userInfo: nil,
@@ -61,9 +61,11 @@ extension ViewController{
         let yearRange = calendar.dateComponents([.second], from: forwardBirthday, to: futureBirthday)
         let range = calendar.dateComponents([.second,.nanosecond], from: forwardBirthday, to: nowDate)
         let nanosecondTosecond:Double = Double(range.nanosecond!)/1000000000.0
-        
         let factor:Double = (Double(range.second!) + nanosecondTosecond)/Double(yearRange.second!)
-        var factorString = String(factor)
+
+        //make show every digi instead of e 
+        var factorString = String(format: "%.15f", factor)
+        print("factorString\(factorString)")
         let startIndex = factorString.index(factorString.startIndex, offsetBy: 1)
         if factorString.characters.count < 17 {
             factorString = factorString + "0000000000"
