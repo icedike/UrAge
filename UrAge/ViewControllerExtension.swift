@@ -77,5 +77,8 @@ extension ViewController{
         yearLabel.text = String(years.year!)
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }  
     
 }
