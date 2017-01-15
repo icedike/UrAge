@@ -37,6 +37,12 @@ class ViewController: UIViewController {
     @IBAction func editDateAction(_ sender: UIDatePicker) {
 
     }
+    @IBAction func tapTextFieldAction(_ sender: Any) {
+        let dateformatter = DateFormatter()
+        dateformatter.dateFormat = "MM-dd-yyyy"
+        let date = dateformatter.date(from: bdDatePickerTextfield.text!)
+        datePicker.date = date!
+    }
 
     @IBAction func doneButtonAction(_ sender: UIBarButtonItem) {
 
