@@ -65,7 +65,6 @@ extension ViewController{
 
         //make show every digi instead of e 
         var factorString = String(format: "%.15f", factor)
-        print("factorString\(factorString)")
         let startIndex = factorString.index(factorString.startIndex, offsetBy: 1)
         if factorString.characters.count < 17 {
             factorString = factorString + "0000000000"
