@@ -13,6 +13,7 @@
 		4CD1DF701E2B5485004624D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1DF6F1E2B5485004624D0 /* Assets.xcassets */; };
 		4CD1DF731E2B5485004624D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1DF711E2B5485004624D0 /* LaunchScreen.storyboard */; };
 		4CD1DF7B1E2B57E5004624D0 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */; };
+		4CD1DF7D1E2B9349004624D0 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4CD1DF721E2B5485004624D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD1DF741E2B5485004624D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4CD1DF6F1E2B5485004624D0 /* Assets.xcassets */,
 				4CD1DF711E2B5485004624D0 /* LaunchScreen.storyboard */,
 				4CD1DF741E2B5485004624D0 /* Info.plist */,
+				4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */,
 			);
 			path = UrAge;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				4CD1DF6B1E2B5485004624D0 /* ViewController.swift in Sources */,
 				4CD1DF691E2B5485004624D0 /* AppDelegate.swift in Sources */,
 				4CD1DF7B1E2B57E5004624D0 /* ViewControllerExtension.swift in Sources */,
+				4CD1DF7D1E2B9349004624D0 /* UIExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

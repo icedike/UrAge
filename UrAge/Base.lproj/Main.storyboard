@@ -22,22 +22,62 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Birthday" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wzm-58-gsW">
-                                <rect key="frame" x="99.5" y="537" width="176.5" height="30"/>
+                                <rect key="frame" x="99.5" y="607" width="176.5" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDG-OA-jp4">
+                                <rect key="frame" x="163.5" y="321.5" width="49" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTu-OS-ivp">
+                                <rect key="frame" x="115.5" y="148" width="144" height="143.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Years" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePz-9V-leQ">
+                                <rect key="frame" x="139.5" y="375.5" width="96.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzq-ve-pd6">
+                                <rect key="frame" x="37" y="612" width="42" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="From">
+                                        <attributes>
+                                            <font key="NSFont" size="18" name="SFUIDisplay-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wzm-58-gsW" secondAttribute="bottom" constant="100" id="8ry-Xb-m5Y"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wzm-58-gsW" secondAttribute="bottom" constant="30" id="8ry-Xb-m5Y"/>
+                            <constraint firstItem="VDG-OA-jp4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Hq-95-Wws"/>
+                            <constraint firstItem="VDG-OA-jp4" firstAttribute="top" secondItem="mTu-OS-ivp" secondAttribute="bottom" constant="30" id="J0K-GD-ves"/>
+                            <constraint firstItem="ePz-9V-leQ" firstAttribute="top" secondItem="VDG-OA-jp4" secondAttribute="bottom" constant="30" id="Wzb-dl-nxO"/>
                             <constraint firstItem="Wzm-58-gsW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xwa-J7-7Nh"/>
+                            <constraint firstItem="ePz-9V-leQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d4u-g7-9Ch"/>
+                            <constraint firstItem="mTu-OS-ivp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eGG-mO-KUh"/>
+                            <constraint firstItem="Wzm-58-gsW" firstAttribute="leading" secondItem="Kzq-ve-pd6" secondAttribute="trailing" constant="20" id="nIU-AF-k52"/>
+                            <constraint firstItem="Wzm-58-gsW" firstAttribute="centerY" secondItem="Kzq-ve-pd6" secondAttribute="centerY" id="rcp-zF-WXU"/>
+                            <constraint firstItem="VDG-OA-jp4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vFs-jT-FeU"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="ageWithoutYearLabel" destination="VDG-OA-jp4" id="M43-W4-SBN"/>
                         <outlet property="bdDatePickerTextfield" destination="Wzm-58-gsW" id="a3d-8Z-xrR"/>
                         <outlet property="datePicker" destination="aZk-DW-Pfj" id="Q9g-UZ-Gsz"/>
                         <outlet property="toolbar" destination="lr7-fF-I7I" id="oP8-ww-Dfc"/>
+                        <outlet property="yearLabel" destination="mTu-OS-ivp" id="Ert-yf-lth"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -63,6 +103,7 @@
                     </items>
                 </toolbar>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
         </scene>
     </scenes>
 </document>

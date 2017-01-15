@@ -11,6 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
 
+    @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var ageWithoutYearLabel: UILabel!{
+        didSet {
+            ageWithoutYearLabel.font = ageWithoutYearLabel.font.monospacedDigitFont
+        }
+    }
     @IBOutlet var toolbar: UIToolbar!
     @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet weak var bdDatePickerTextfield: UITextField!
