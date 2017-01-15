@@ -34,9 +34,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 
-    @IBAction func editDateAction(_ sender: UIDatePicker) {
-
-    }
+    // make date pick initial from the date of the textfield
     @IBAction func tapTextFieldAction(_ sender: Any) {
         let dateformatter = DateFormatter()
         dateformatter.dateFormat = "MM-dd-yyyy"
@@ -45,7 +43,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func doneButtonAction(_ sender: UIBarButtonItem) {
-
+        
+        //only valid for old date
         if datePicker.date > Date(){
             print("too late")
             let alert = UIAlertController(title: "Error", message: "You can't be borned in the future. Please pick up another day", preferredStyle: .alert)

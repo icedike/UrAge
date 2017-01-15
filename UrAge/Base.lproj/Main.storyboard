@@ -90,9 +90,6 @@
                     <date key="date" timeIntervalSinceReferenceDate="506160577.49383301">
                         <!--2017-01-15 08:09:37 +0000-->
                     </date>
-                    <connections>
-                        <action selector="editDateAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="oNc-O4-M22"/>
-                    </connections>
                 </datePicker>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="lr7-fF-I7I">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

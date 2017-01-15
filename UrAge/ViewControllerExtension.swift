@@ -25,10 +25,11 @@ extension ViewController{
     }
     
     func initialSettingForBD(){
+        
+        //initial the textfield when user use in the first time
         if let userBirthday = UserDefaults.standard.string(forKey: "birthday"){
             bdDatePickerTextfield.text = userBirthday
         }else{
-            print("first day to use the app")
             let dateFormatter = DateFormatter()
             let today = Date()
             dateFormatter.dateFormat = "MM-dd-yyyy"
@@ -52,6 +53,7 @@ extension ViewController{
         let birthday = dateFormatter.date(from: birthdayString)!
         let nowDate = Date()
         let calendar = Calendar.current
+        //get years form birthday to now
         let years = calendar.dateComponents([.year], from: birthday, to: nowDate)
         let forwardBirthday  = calendar.date(byAdding: years, to: birthday)!
         let oneYear = DateComponents(year: 1)
