@@ -2,5 +2,5 @@ language: objective-c
 xcode_project: UrAge.xcodeproj
 xcode_scheme: UrAge
 script:
-- xctool -workspace UrAge.xcodeproj -scheme UrAge clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+- xctool -project UrAge.xcodeproj -scheme UrAge clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
  
