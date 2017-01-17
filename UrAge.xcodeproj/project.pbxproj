@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA827BA1E2E7303006E03C6 /* EventPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA827B91E2E7303006E03C6 /* EventPhoto.swift */; };
 		4CD1DF691E2B5485004624D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF681E2B5485004624D0 /* AppDelegate.swift */; };
 		4CD1DF6B1E2B5485004624D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF6A1E2B5485004624D0 /* ViewController.swift */; };
 		4CD1DF6E1E2B5485004624D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1DF6C1E2B5485004624D0 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CA827B91E2E7303006E03C6 /* EventPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventPhoto.swift; sourceTree = "<group>"; };
 		4CD1DF651E2B5485004624D0 /* UrAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1DF681E2B5485004624D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD1DF6A1E2B5485004624D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */,
 				4CD1DFCA1E2E29D1004624D0 /* TimeLineViewController.swift */,
 				4CD1DFD41E2E3206004624D0 /* TimeLineVewControllerExtension.swift */,
+				4CA827B91E2E7303006E03C6 /* EventPhoto.swift */,
 			);
 			path = UrAge;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				4CD1DF691E2B5485004624D0 /* AppDelegate.swift in Sources */,
 				4CD1DFC91E2E0109004624D0 /* CariocaMenu.swift in Sources */,
 				4CD1DFC11E2DED3A004624D0 /* MenuTableViewCell.swift in Sources */,
+				4CA827BA1E2E7303006E03C6 /* EventPhoto.swift in Sources */,
 				4CD1DFBF1E2DE350004624D0 /* MenuTableViewController.swift in Sources */,
 				4CD1DFCB1E2E29D1004624D0 /* TimeLineViewController.swift in Sources */,
 				4CD1DFC71E2DF757004624D0 /* SettingViewController.swift in Sources */,

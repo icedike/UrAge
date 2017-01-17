@@ -1,5 +1,5 @@
 //
-//  TimeLineViewController.swift
+//  TakePhotoViewController.swift
 //  UrAge
 //
 //  Created by LIN TINGMIN on 17/01/2017.
@@ -7,23 +7,20 @@
 //
 
 import UIKit
-import TimelineTableViewCell
 
-class TimeLineViewController: UIViewController {
+class TakePhotoViewController: UIViewController {
 
-    // TimelinePoint, Timeline back color, title, description, lineInfo, thumbnail
-    let data:[String: [(TimelinePoint, UIColor, String, String, String?, UIImage?)]] = [:]
-    // find which year old 
-    let year:[String] = []
+    @IBOutlet weak var photoImageView: UIImageView!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var photoDesTextView: UITextView!
     
-    @IBOutlet weak var timeLineTableView: UITableView!
+    var timeForTimeLabel:String!
     override func viewDidLoad() {
         super.viewDidLoad()
-        initialViewDidLoad()
-        
+
+        timeLabel.text = timeForTimeLabel + " years"
         // Do any additional setup after loading the view.
     }
-
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

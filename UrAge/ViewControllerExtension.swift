@@ -73,4 +73,17 @@ extension ViewController{
     }  
     
 }
+extension ViewController:UIImagePickerControllerDelegate,UINavigationControllerDelegate{
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage{
+            //self.photoImage.image = pickedImage
+            UIImageWriteToSavedPhotosAlbum(pickedImage, nil, nil, nil) //照片存到相簿
+        }
+        self.dismiss(animated: true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController){
+    
+    }
+    
+}
 

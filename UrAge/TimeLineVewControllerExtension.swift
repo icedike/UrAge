@@ -41,7 +41,7 @@ extension TimeLineViewController:UITableViewDelegate,UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        guard let sectionData = data[section] else {
+        guard let sectionData = data[year[section]] else {
             return 0
         }
         return sectionData.count
@@ -55,7 +55,7 @@ extension TimeLineViewController:UITableViewDelegate,UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "TimelineTableViewCell", for: indexPath) as! TimelineTableViewCell
         
         // Configure the cell...
-        guard let sectionData = data[indexPath.section] else {
+        guard let sectionData = data[year[indexPath.section]] else {
             return cell
         }
         
@@ -71,14 +71,14 @@ extension TimeLineViewController:UITableViewDelegate,UITableViewDataSource{
         cell.descriptionLabel.text = description
         cell.lineInfoLabel.text = lineInfo
         if let thumbnail = thumbnail {
-            cell.thumbnailImageView.image = UIImage(named: thumbnail)
+            cell.thumbnailImageView.image = thumbnail
         }
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let sectionData = data[indexPath.section] else {
+        guard let sectionData = data[year[indexPath.section]] else {
             return
         }
         

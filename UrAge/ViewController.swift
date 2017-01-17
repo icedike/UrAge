@@ -29,7 +29,17 @@ class ViewController: UIViewController {
         
         initialSettingForBD()
         
+        //make button to circle 
         addPhotoBtn.layer.cornerRadius = addPhotoBtn.frame.width/2
+        
+    }
+    @IBAction func addPhotoAction(_ sender: UIButton) {
+        
+        // use camer to take the picture
+        let controller = UIImagePickerController()
+        controller.sourceType = .camera
+        
+        self.present(controller, animated: true, completion: nil)
         
     }
 
