@@ -1,12 +1,15 @@
 PODS:
+  - INSPersistentContainer (1.0.2)
   - TimelineTableViewCell (1.0.0)
 
 DEPENDENCIES:
+  - INSPersistentContainer
   - TimelineTableViewCell
 
 SPEC CHECKSUMS:
+  INSPersistentContainer: 7e04a0d332ba075441ce0ee73d584ce84d76ac23
   TimelineTableViewCell: 019e1ece631d319f5634542f54bce05e72f4b126
 
-PODFILE CHECKSUM: 73bea7753d322468f6975173cbe94773573dd387
+PODFILE CHECKSUM: 5f180080ec9044116b9fc364b5ae239b9d15166f
 
 COCOAPODS: 1.1.1

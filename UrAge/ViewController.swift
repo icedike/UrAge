@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         // use camer to take the picture
         let controller = UIImagePickerController()
         controller.sourceType = .camera
-        
+        controller.delegate = self
         self.present(controller, animated: true, completion: nil)
         
     }

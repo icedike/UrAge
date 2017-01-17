@@ -21,6 +21,7 @@ class TimeLineViewController: UIViewController {
         super.viewDidLoad()
         initialViewDidLoad()
         
+        readAgePhoto()
         // Do any additional setup after loading the view.
     }
 

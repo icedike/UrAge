@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import CoreData
 
 extension ViewController{
     
@@ -77,6 +77,24 @@ extension ViewController:UIImagePickerControllerDelegate,UINavigationControllerD
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage{
             //self.photoImage.image = pickedImage
+            //save photo to coredata
+            
+            let context = DataManger.share.mainContext
+            guard let imagedata = UIImageJPEGRepresentation(pickedImage, 1) else{
+                print("jpeg error")
+                return
+            }
+            let agePhoto = NSEntityDescription.insertNewObject(forEntityName: "AgePhoto", into: context) as! AgePhoto
+            agePhoto.photo = NSData(data: imagedata)
+            agePhoto.year = yearLabel.text
+            agePhoto.afterYear = ageWithoutYearLabel.text
+            
+            do {
+                print("save data")
+                try context.save()
+            } catch {
+                print("save failed")
+            }
             UIImageWriteToSavedPhotosAlbum(pickedImage, nil, nil, nil) //照片存到相簿
         }
         self.dismiss(animated: true, completion: nil)

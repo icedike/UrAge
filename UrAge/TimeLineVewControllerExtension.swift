@@ -8,11 +8,9 @@
 
 import UIKit
 import TimelineTableViewCell
+import CoreData
 
 extension TimeLineViewController{
-    
-    
-    
     
     func initialViewDidLoad(){
         
@@ -28,6 +26,27 @@ extension TimeLineViewController{
         let timelineTableViewCellNib = UINib(nibName: "TimelineTableViewCell",
                                              bundle: Bundle(url: nibUrl!)!)
         timeLineTableView.register(timelineTableViewCellNib, forCellReuseIdentifier: "TimelineTableViewCell")
+    }
+    
+    
+    func readAgePhoto(){
+        let context = DataManger.share.mainContext
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "AgePhoto")
+        do {
+            let results = try context.fetch(request) as! [AgePhoto]
+            if results.count > 0 {
+                print("\(results.count) saved in coredata")
+                for result in results {
+                    
+                    let image = UIImage(data:(result.photo as! Data))
+                    if let year = result.year,  let afterYear = result.afterYear{
+                        print("year \(year) afterYear \(afterYear)")
+                    }
+                }
+            }
+        } catch {
+            print("read photo data failed")
+        }
     }
 }
 
