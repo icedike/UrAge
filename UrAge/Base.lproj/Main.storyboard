@@ -152,8 +152,23 @@
                     <view key="view" contentMode="scaleToFill" id="tqe-BU-Rcv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="UuS-us-jvA">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UuS-us-jvA" firstAttribute="top" secondItem="k4B-7M-tGH" secondAttribute="bottom" id="86B-Ap-Cgy"/>
+                            <constraint firstItem="nCl-LE-qp6" firstAttribute="top" secondItem="UuS-us-jvA" secondAttribute="bottom" id="EyO-Hm-m2L"/>
+                            <constraint firstAttribute="trailing" secondItem="UuS-us-jvA" secondAttribute="trailing" id="Klk-Gh-bJE"/>
+                            <constraint firstItem="UuS-us-jvA" firstAttribute="leading" secondItem="tqe-BU-Rcv" secondAttribute="leading" id="wXh-bw-36C"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timeLineTableView" destination="UuS-us-jvA" id="W0Q-C2-xuO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MAw-fw-UFP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
