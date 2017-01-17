@@ -191,7 +191,34 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h4G-gE-VYU" id="vce-TH-j95">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JM9-QZ-SeR">
+                                            <rect key="frame" x="378" y="8" width="26" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="26" id="HMW-Wm-XqC"/>
+                                                <constraint firstAttribute="height" constant="26" id="wEQ-bc-JLQ"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iGp-av-96j">
+                                            <rect key="frame" x="10" y="0.0" width="354" height="43.666666666666664"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="JM9-QZ-SeR" firstAttribute="centerY" secondItem="vce-TH-j95" secondAttribute="centerY" id="0O5-lY-iAZ"/>
+                                        <constraint firstItem="JM9-QZ-SeR" firstAttribute="leading" secondItem="iGp-av-96j" secondAttribute="trailing" constant="14" id="ORs-gh-TXu"/>
+                                        <constraint firstItem="iGp-av-96j" firstAttribute="top" secondItem="vce-TH-j95" secondAttribute="top" id="l6k-4w-KZi"/>
+                                        <constraint firstAttribute="bottom" secondItem="iGp-av-96j" secondAttribute="bottom" constant="-0.67000000000000004" id="rH2-0e-zQI"/>
+                                        <constraint firstAttribute="trailing" secondItem="JM9-QZ-SeR" secondAttribute="trailing" constant="10" id="rfj-JV-zv1"/>
+                                        <constraint firstItem="iGp-av-96j" firstAttribute="leading" secondItem="vce-TH-j95" secondAttribute="leading" constant="10" id="vO6-M7-UI0"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="iconImageView" destination="JM9-QZ-SeR" id="fLe-eh-uZ1"/>
+                                    <outlet property="titleLabel" destination="iGp-av-96j" id="RFg-2J-Uoo"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

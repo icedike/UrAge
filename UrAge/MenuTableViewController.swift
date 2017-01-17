@@ -44,6 +44,7 @@ class MenuTableViewController: UITableViewController, CariocaMenuDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: cellTypeIdentifier, for: indexPath) as! MenuTableViewCell
         //set the title in the cell
+        print("\(menuNames[indexPath.row])")
         cell.titleLabel.text = menuNames[indexPath.row]
         
         if (indexPath == cariocaMenu?.selectedIndexPath){
