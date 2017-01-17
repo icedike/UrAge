@@ -14,6 +14,7 @@
 		4CD1DF731E2B5485004624D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1DF711E2B5485004624D0 /* LaunchScreen.storyboard */; };
 		4CD1DF7B1E2B57E5004624D0 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */; };
 		4CD1DF7D1E2B9349004624D0 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */; };
+		66D3FBD5DBDEDE0FE5B85B24 /* Pods_UrAge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA921B9640383CC9F5B59C7F /* Pods_UrAge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		4CD1DF741E2B5485004624D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		749C82D1ED64C05AD6A17E1C /* Pods-UrAge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrAge.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrAge/Pods-UrAge.release.xcconfig"; sourceTree = "<group>"; };
+		8FFD7A67455F427109735FB5 /* Pods-UrAge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrAge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrAge/Pods-UrAge.debug.xcconfig"; sourceTree = "<group>"; };
+		FA921B9640383CC9F5B59C7F /* Pods_UrAge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrAge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D3FBD5DBDEDE0FE5B85B24 /* Pods_UrAge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				4CD1DF671E2B5485004624D0 /* UrAge */,
 				4CD1DF661E2B5485004624D0 /* Products */,
+				BC69786B19ECF9D79B115C00 /* Pods */,
+				50AFF2649204C5D5C363DAB0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,23 @@
 			path = UrAge;
 			sourceTree = "<group>";
 		};
+		50AFF2649204C5D5C363DAB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA921B9640383CC9F5B59C7F /* Pods_UrAge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC69786B19ECF9D79B115C00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FFD7A67455F427109735FB5 /* Pods-UrAge.debug.xcconfig */,
+				749C82D1ED64C05AD6A17E1C /* Pods-UrAge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD1DF771E2B5485004624D0 /* Build configuration list for PBXNativeTarget "UrAge" */;
 			buildPhases = (
+				13DC05C6598AFBFDA7AF1A6A /* [CP] Check Pods Manifest.lock */,
 				4CD1DF611E2B5485004624D0 /* Sources */,
 				4CD1DF621E2B5485004624D0 /* Frameworks */,
 				4CD1DF631E2B5485004624D0 /* Resources */,
+				A78D5782EDBFB4EF3243806F /* [CP] Embed Pods Frameworks */,
+				EA5DE4F3F2908AF9412B14EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13DC05C6598AFBFDA7AF1A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A78D5782EDBFB4EF3243806F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrAge/Pods-UrAge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5DE4F3F2908AF9412B14EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UrAge/Pods-UrAge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CD1DF611E2B5485004624D0 /* Sources */ = {
@@ -265,6 +340,7 @@
 		};
 		4CD1DF781E2B5485004624D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFD7A67455F427109735FB5 /* Pods-UrAge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26B57L9T22;
@@ -280,6 +356,7 @@
 		};
 		4CD1DF791E2B5485004624D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749C82D1ED64C05AD6A17E1C /* Pods-UrAge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 26B57L9T22;

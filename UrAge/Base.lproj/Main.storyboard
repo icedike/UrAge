@@ -49,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kzq-ve-pd6">
-                                <rect key="frame" x="56.666666666666686" y="681" width="42.000000000000014" height="21"/>
+                                <rect key="frame" x="56.666666666666671" y="681" width="42.000000000000014" height="21"/>
                                 <attributedString key="attributedText">
                                     <fragment content="From">
                                         <attributes>
