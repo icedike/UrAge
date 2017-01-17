@@ -14,6 +14,12 @@
 		4CD1DF731E2B5485004624D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1DF711E2B5485004624D0 /* LaunchScreen.storyboard */; };
 		4CD1DF7B1E2B57E5004624D0 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */; };
 		4CD1DF7D1E2B9349004624D0 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */; };
+		4CD1DFBF1E2DE350004624D0 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFBE1E2DE350004624D0 /* MenuTableViewController.swift */; };
+		4CD1DFC11E2DED3A004624D0 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFC01E2DED3A004624D0 /* MenuTableViewCell.swift */; };
+		4CD1DFC31E2DF348004624D0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFC21E2DF348004624D0 /* BaseViewController.swift */; };
+		4CD1DFC51E2DF3BB004624D0 /* BaseViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFC41E2DF3BB004624D0 /* BaseViewControllerExtension.swift */; };
+		4CD1DFC71E2DF757004624D0 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFC61E2DF757004624D0 /* SettingViewController.swift */; };
+		4CD1DFC91E2E0109004624D0 /* CariocaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */; };
 		66D3FBD5DBDEDE0FE5B85B24 /* Pods_UrAge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA921B9640383CC9F5B59C7F /* Pods_UrAge.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +33,12 @@
 		4CD1DF741E2B5485004624D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		4CD1DFBE1E2DE350004624D0 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		4CD1DFC01E2DED3A004624D0 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		4CD1DFC21E2DF348004624D0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4CD1DFC41E2DF3BB004624D0 /* BaseViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewControllerExtension.swift; sourceTree = "<group>"; };
+		4CD1DFC61E2DF757004624D0 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CariocaMenu.swift; sourceTree = "<group>"; };
 		749C82D1ED64C05AD6A17E1C /* Pods-UrAge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrAge.release.xcconfig"; path = "Pods/Target Support Files/Pods-UrAge/Pods-UrAge.release.xcconfig"; sourceTree = "<group>"; };
 		8FFD7A67455F427109735FB5 /* Pods-UrAge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UrAge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UrAge/Pods-UrAge.debug.xcconfig"; sourceTree = "<group>"; };
 		FA921B9640383CC9F5B59C7F /* Pods_UrAge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrAge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +85,12 @@
 				4CD1DF711E2B5485004624D0 /* LaunchScreen.storyboard */,
 				4CD1DF741E2B5485004624D0 /* Info.plist */,
 				4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */,
+				4CD1DFBE1E2DE350004624D0 /* MenuTableViewController.swift */,
+				4CD1DFC01E2DED3A004624D0 /* MenuTableViewCell.swift */,
+				4CD1DFC21E2DF348004624D0 /* BaseViewController.swift */,
+				4CD1DFC41E2DF3BB004624D0 /* BaseViewControllerExtension.swift */,
+				4CD1DFC61E2DF757004624D0 /* SettingViewController.swift */,
+				4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */,
 			);
 			path = UrAge;
 			sourceTree = "<group>";
@@ -219,8 +237,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD1DF6B1E2B5485004624D0 /* ViewController.swift in Sources */,
+				4CD1DFC51E2DF3BB004624D0 /* BaseViewControllerExtension.swift in Sources */,
 				4CD1DF691E2B5485004624D0 /* AppDelegate.swift in Sources */,
+				4CD1DFC91E2E0109004624D0 /* CariocaMenu.swift in Sources */,
+				4CD1DFC11E2DED3A004624D0 /* MenuTableViewCell.swift in Sources */,
+				4CD1DFBF1E2DE350004624D0 /* MenuTableViewController.swift in Sources */,
+				4CD1DFC71E2DF757004624D0 /* SettingViewController.swift in Sources */,
 				4CD1DF7B1E2B57E5004624D0 /* ViewControllerExtension.swift in Sources */,
+				4CD1DFC31E2DF348004624D0 /* BaseViewController.swift in Sources */,
 				4CD1DF7D1E2B9349004624D0 /* UIExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +413,7 @@
 				4CD1DF791E2B5485004624D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

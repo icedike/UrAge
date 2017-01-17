@@ -10,7 +10,6 @@
 		2FD451A9B19CCDCB6776074AAE06D6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		3BD5E84071CE6E535F5EDEBA66C26F33 /* Pods-UrAge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01056DB1EE9DA2C22F8C3756102F7CDF /* Pods-UrAge-dummy.m */; };
 		49D206E56D446299FDB7D4F6D232DD4D /* CariocaMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DCF174C149AE6EBC6B98131B42097 /* CariocaMenu-dummy.m */; };
-		4CD1DFBD1E2DDBDB004624D0 /* CariocaMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DFBC1E2DDBDB004624D0 /* CariocaMenu.swift */; };
 		B57808522A1DEDEB132E275ADD5D93B9 /* CariocaMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5235AF630FA6DE8EAD8D7EBB8BBFB4 /* CariocaMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCE142DDBEBCBBD595988871E4941B50 /* Pods-UrAge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4F91FF11ED1CCFDCDDA7DB56CCE3B0 /* Pods-UrAge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DF117E543C79128C9CAD1017013FC5B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
@@ -31,7 +30,6 @@
 		2E9021260F25B33B7944745190C113E0 /* CariocaMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CariocaMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3699400C10594C5B8F0D76F6C1A2EB9B /* CariocaMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CariocaMenu.xcconfig; sourceTree = "<group>"; };
 		3FA783EF9AE1DE8F5BB1E8729B6F0273 /* Pods-UrAge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrAge-acknowledgements.plist"; sourceTree = "<group>"; };
-		4CD1DFBC1E2DDBDB004624D0 /* CariocaMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CariocaMenu.swift; sourceTree = "<group>"; };
 		523DCE12B5D145B62B2BB3B8D2E34455 /* Pods-UrAge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrAge.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4F91FF11ED1CCFDCDDA7DB56CCE3B0 /* Pods-UrAge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UrAge-umbrella.h"; sourceTree = "<group>"; };
 		68BB570D4752D2846ED976231A825271 /* Pods-UrAge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UrAge-frameworks.sh"; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 		D1F1DDC764CE7DC1A9D76E1D9A45DD59 /* CariocaMenu */ = {
 			isa = PBXGroup;
 			children = (
-				4CD1DFBC1E2DDBDB004624D0 /* CariocaMenu.swift */,
 				78EBE1C5229D93CC4DB85157AF213B27 /* Support Files */,
 			);
 			path = CariocaMenu;
@@ -258,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D206E56D446299FDB7D4F6D232DD4D /* CariocaMenu-dummy.m in Sources */,
-				4CD1DFBD1E2DDBDB004624D0 /* CariocaMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
