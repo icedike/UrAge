@@ -24,10 +24,13 @@ class MenuTableViewController: UITableViewController, CariocaMenuDataSource {
         
         iconNames.append("about")
         iconNames.append("settings")
+        iconNames.append("camera")
+        
 
         
-        menuNames.append("About you")
+        menuNames.append("About yourself")
         menuNames.append("Settings")
+        menuNames.append("Camera")
     }
     
     // MARK: - Table view data source

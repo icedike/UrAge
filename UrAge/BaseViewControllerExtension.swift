@@ -97,6 +97,14 @@ extension BaseViewController{
                 demoContentController = showSetting as UIViewController
             }
             break
+        case 2:
+            if let showTimeLine = self.storyboard?.instantiateViewController(withIdentifier: "TimeLineViewController") as? TimeLineViewController{
+                self.addChildViewController(showTimeLine)
+                self.view.addSubview(showTimeLine.view)
+                demoContentController = showTimeLine as UIViewController
+            }
+            break
+            
         default:
             break
         }
