@@ -12,6 +12,7 @@
 		4CA827C01E2E7D30006E03C6 /* AgePhoto+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA827BE1E2E7D30006E03C6 /* AgePhoto+CoreDataClass.swift */; };
 		4CA827C11E2E7D30006E03C6 /* AgePhoto+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA827BF1E2E7D30006E03C6 /* AgePhoto+CoreDataProperties.swift */; };
 		4CA827C31E2E7DB7006E03C6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA827C21E2E7DB7006E03C6 /* DataManager.swift */; };
+		4CA827C51E2E9380006E03C6 /* SettingViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA827C41E2E9380006E03C6 /* SettingViewControllerExtension.swift */; };
 		4CD1DF691E2B5485004624D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF681E2B5485004624D0 /* AppDelegate.swift */; };
 		4CD1DF6B1E2B5485004624D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD1DF6A1E2B5485004624D0 /* ViewController.swift */; };
 		4CD1DF6E1E2B5485004624D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD1DF6C1E2B5485004624D0 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		4CA827BE1E2E7D30006E03C6 /* AgePhoto+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgePhoto+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4CA827BF1E2E7D30006E03C6 /* AgePhoto+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgePhoto+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4CA827C21E2E7DB7006E03C6 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4CA827C41E2E9380006E03C6 /* SettingViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewControllerExtension.swift; sourceTree = "<group>"; };
 		4CD1DF651E2B5485004624D0 /* UrAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD1DF681E2B5485004624D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CD1DF6A1E2B5485004624D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				4CD1DFC21E2DF348004624D0 /* BaseViewController.swift */,
 				4CD1DFC41E2DF3BB004624D0 /* BaseViewControllerExtension.swift */,
 				4CD1DFC61E2DF757004624D0 /* SettingViewController.swift */,
+				4CA827C41E2E9380006E03C6 /* SettingViewControllerExtension.swift */,
 				4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */,
 				4CD1DFCA1E2E29D1004624D0 /* TimeLineViewController.swift */,
 				4CD1DFD41E2E3206004624D0 /* TimeLineVewControllerExtension.swift */,
@@ -274,6 +277,7 @@
 				4CD1DF7B1E2B57E5004624D0 /* ViewControllerExtension.swift in Sources */,
 				4CD1DFC31E2DF348004624D0 /* BaseViewController.swift in Sources */,
 				4CD1DF7D1E2B9349004624D0 /* UIExtension.swift in Sources */,
+				4CA827C51E2E9380006E03C6 /* SettingViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,9 +12,9 @@ import TimelineTableViewCell
 class TimeLineViewController: UIViewController {
 
     // TimelinePoint, Timeline back color, title, description, lineInfo, thumbnail
-    let data:[String: [(TimelinePoint, UIColor, String, String, String?, UIImage?)]] = [:]
+    var data:[String: [(TimelinePoint, UIColor, String, String, String?, UIImage?)]] = [:]
     // find which year old 
-    let year:[String] = []
+    var year:[String] = []
     
     @IBOutlet weak var timeLineTableView: UITableView!
     override func viewDidLoad() {

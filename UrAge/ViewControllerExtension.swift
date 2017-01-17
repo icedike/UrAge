@@ -100,7 +100,7 @@ extension ViewController:UIImagePickerControllerDelegate,UINavigationControllerD
         self.dismiss(animated: true, completion: nil)
     }
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController){
-    
+        self.dismiss(animated: true, completion: nil)
     }
     
 }

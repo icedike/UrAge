@@ -36,11 +36,23 @@ extension TimeLineViewController{
             let results = try context.fetch(request) as! [AgePhoto]
             if results.count > 0 {
                 print("\(results.count) saved in coredata")
+                guard var startYear = results.first?.year else{
+                    print("fail to get the first year")
+                    return
+                }
+                //save starting year to year array
+                year.append(startYear)
+                data[startYear] = []
                 for result in results {
-                    
                     let image = UIImage(data:(result.photo as! Data))
-                    if let year = result.year,  let afterYear = result.afterYear{
-                        print("year \(year) afterYear \(afterYear)")
+                    if let photoYear = result.year,  let afterYear = result.afterYear{
+                        print("year \(photoYear) afterYear \(afterYear)")
+                        if startYear != photoYear {
+                            year.append(photoYear)
+                            data[photoYear] = []
+                            startYear = photoYear
+                        }
+                        data[photoYear]?.append((TimelinePoint(), UIColor.black, afterYear, "", nil, image))
                     }
                 }
             }
@@ -67,7 +79,7 @@ extension TimeLineViewController:UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Day " + String(describing: section + 1)
+        return "Year " + year[section]
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

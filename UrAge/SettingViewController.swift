@@ -86,6 +86,8 @@ class SettingViewController: UIViewController {
                 //save birthday to local storage
                 UserDefaults.standard.set(date, forKey: "birthday")
                 UserDefaults.standard.synchronize()
+                // if changing the birthday -> delete all data
+                deleteAllFromCoreData()
             }
             view.endEditing(true)
         }
