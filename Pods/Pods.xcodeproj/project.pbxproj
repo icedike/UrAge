@@ -7,81 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FD451A9B19CCDCB6776074AAE06D6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		3BD5E84071CE6E535F5EDEBA66C26F33 /* Pods-UrAge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01056DB1EE9DA2C22F8C3756102F7CDF /* Pods-UrAge-dummy.m */; };
-		49D206E56D446299FDB7D4F6D232DD4D /* CariocaMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DCF174C149AE6EBC6B98131B42097 /* CariocaMenu-dummy.m */; };
-		B57808522A1DEDEB132E275ADD5D93B9 /* CariocaMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED5235AF630FA6DE8EAD8D7EBB8BBFB4 /* CariocaMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCE142DDBEBCBBD595988871E4941B50 /* Pods-UrAge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4F91FF11ED1CCFDCDDA7DB56CCE3B0 /* Pods-UrAge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF117E543C79128C9CAD1017013FC5B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0ACB95FC85D98363B0D7790B6ACDD572 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		366A39D9537C0394FC7CF470FF82FCEB /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B691E520A2CFE9FEBE918CA48178F80 /* TimelineTableViewCell.swift */; };
+		43161CB6251B7D55C1FC10198C761642 /* Pods-UrAge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01056DB1EE9DA2C22F8C3756102F7CDF /* Pods-UrAge-dummy.m */; };
+		491C9FD54F192655BDF97F31B2324961 /* Pods-UrAge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4F91FF11ED1CCFDCDDA7DB56CCE3B0 /* Pods-UrAge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F7BEC6EF8F3747F3DDAE90A02F3748 /* TimelinePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52C84C5E3CCE41FA74359FD08555FE3 /* TimelinePoint.swift */; };
+		62BA2261D4854C1AEFA68D7C4CC5E9F8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D16B6C77A50B6150E3B5D7438321C5 /* Timeline.swift */; };
+		69C50756F7C6ED4F01A3EAD9A17FA3CD /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF2ACDD923F05C7F073953BE16364832 /* TimelineTableViewCell.xib */; };
+		7BEA71630E7E579C628E74FE9C34AA19 /* TimelineTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81823914EB156DF2DC855CF18997E4C8 /* TimelineTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F3BAA7340410D21F8B14CB15F160C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D35139A1F2B1740D14E5EA9BA84D1670 /* TimelineTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EDD44F03C2DE968A452CD4858D980 /* TimelineTableViewCell-dummy.m */; };
+		E84BE383D86DFAA63283B568212712C0 /* TimelineTableViewCell.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4490DADAB24C909502B51787B9E9163 /* TimelineTableViewCell.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7063A7A72B5500E87E4FFFCDED085DD0 /* PBXContainerItemProxy */ = {
+		295DF887A5A9B89255C879D75699FE62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 392501B24C7CD9DD3837F830B7FE6E57;
-			remoteInfo = CariocaMenu;
+			remoteGlobalIDString = D23F43EA5C59C7C6EF44FA7ABA885C2E;
+			remoteInfo = TimelineTableViewCell;
+		};
+		7719C58B5714EC73A37AE82A24CBB528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 897383C1C37C0727D96A95AC939B3F12;
+			remoteInfo = "TimelineTableViewCell-TimelineTableViewCell";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01056DB1EE9DA2C22F8C3756102F7CDF /* Pods-UrAge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UrAge-dummy.m"; sourceTree = "<group>"; };
-		2E9021260F25B33B7944745190C113E0 /* CariocaMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CariocaMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3699400C10594C5B8F0D76F6C1A2EB9B /* CariocaMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CariocaMenu.xcconfig; sourceTree = "<group>"; };
+		0603A1BCA2F3F10FB262C03A29C27048 /* TimelineTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimelineTableViewCell.framework; path = TimelineTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CA66DC59A2D8DDD013B9D76591147E /* TimelineTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TimelineTableViewCell.modulemap; sourceTree = "<group>"; };
+		34C05BF774D6ACC2E97B6CE04E0D4F6B /* ResourceBundle-TimelineTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TimelineTableViewCell-Info.plist"; sourceTree = "<group>"; };
 		3FA783EF9AE1DE8F5BB1E8729B6F0273 /* Pods-UrAge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UrAge-acknowledgements.plist"; sourceTree = "<group>"; };
+		450EDD44F03C2DE968A452CD4858D980 /* TimelineTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimelineTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		4A45E87761755FC4DF7AD7196CBE11C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523DCE12B5D145B62B2BB3B8D2E34455 /* Pods-UrAge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrAge.debug.xcconfig"; sourceTree = "<group>"; };
 		5D4F91FF11ED1CCFDCDDA7DB56CCE3B0 /* Pods-UrAge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UrAge-umbrella.h"; sourceTree = "<group>"; };
 		68BB570D4752D2846ED976231A825271 /* Pods-UrAge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UrAge-frameworks.sh"; sourceTree = "<group>"; };
-		7F611AFB3E339BF82766116C9B0251DD /* CariocaMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CariocaMenu.modulemap; sourceTree = "<group>"; };
+		7FDB2BA35E1AB216A4D3C6B631AE4CA3 /* TimelineTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimelineTableViewCell.xcconfig; sourceTree = "<group>"; };
+		81823914EB156DF2DC855CF18997E4C8 /* TimelineTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimelineTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		826012A08A0F2E5E702394BD74E6B6DF /* Pods_UrAge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UrAge.framework; path = "Pods-UrAge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8422A09C52745301AE813E8529C387F5 /* TimelineTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimelineTableViewCell-prefix.pch"; sourceTree = "<group>"; };
 		850167537EE9FC84DE1D8BDDB6373D72 /* Pods-UrAge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UrAge.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		966DEB1E5F41B6A2FCF5B2BB8A66F18E /* Pods-UrAge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UrAge-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0AB78C7ED34C34241A404F69CFBC2B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B46DCF174C149AE6EBC6B98131B42097 /* CariocaMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CariocaMenu-dummy.m"; sourceTree = "<group>"; };
+		9B691E520A2CFE9FEBE918CA48178F80 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineTableViewCell.swift; path = TimelineTableViewCell/TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		B4490DADAB24C909502B51787B9E9163 /* TimelineTableViewCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimelineTableViewCell.bundle; path = TimelineTableViewCell.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B2400B5D8A0DB94BC8DD57E1E57C3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9D16B6C77A50B6150E3B5D7438321C5 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = TimelineTableViewCell/Timeline.swift; sourceTree = "<group>"; };
 		E078C374F0DCABAB4428ED447D5DA684 /* Pods-UrAge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UrAge-resources.sh"; sourceTree = "<group>"; };
-		E71BFEC666FF7F3B1658A28568D0E270 /* Pods-UrAge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UrAge.modulemap"; sourceTree = "<group>"; };
-		E7BF1C60137E2E1D1C2880D841252F0D /* Pods_UrAge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UrAge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED5235AF630FA6DE8EAD8D7EBB8BBFB4 /* CariocaMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CariocaMenu-umbrella.h"; sourceTree = "<group>"; };
-		F05F56468AE4150959ABECAA5249792E /* CariocaMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CariocaMenu-prefix.pch"; sourceTree = "<group>"; };
+		E71BFEC666FF7F3B1658A28568D0E270 /* Pods-UrAge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UrAge.modulemap"; sourceTree = "<group>"; };
+		EF2ACDD923F05C7F073953BE16364832 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TimelineTableViewCell.xib; path = TimelineTableViewCell/TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		F52C84C5E3CCE41FA74359FD08555FE3 /* TimelinePoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelinePoint.swift; path = TimelineTableViewCell/TimelinePoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		23056D6415C7F53A3F96E054F4FF45C1 /* Frameworks */ = {
+		29D2D150DAB112C4BA3663BD5549DB2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF117E543C79128C9CAD1017013FC5B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8072555318AB372DF967395061ACE7D2 /* Frameworks */ = {
+		8CE5BD87CF236F2CFB174914F3D12EC7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD451A9B19CCDCB6776074AAE06D6C1 /* Foundation.framework in Frameworks */,
+				0ACB95FC85D98363B0D7790B6ACDD572 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8DD5B16F819F672C56628ED7E960F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F3BAA7340410D21F8B14CB15F160C44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C7F111EF770EF061CC334FC12F5479C /* TimelineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				D9D16B6C77A50B6150E3B5D7438321C5 /* Timeline.swift */,
+				F52C84C5E3CCE41FA74359FD08555FE3 /* TimelinePoint.swift */,
+				9B691E520A2CFE9FEBE918CA48178F80 /* TimelineTableViewCell.swift */,
+				F95DD42318223BDEBBD3A6DFF6825522 /* Resources */,
+				7B8E0909492AACC1CEA4E8C30CF6B308 /* Support Files */,
+			);
+			name = TimelineTableViewCell;
+			path = TimelineTableViewCell;
+			sourceTree = "<group>";
+		};
+		1D9312F3590D38B2E5CEF7A00F4410B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826012A08A0F2E5E702394BD74E6B6DF /* Pods_UrAge.framework */,
+				B4490DADAB24C909502B51787B9E9163 /* TimelineTableViewCell.bundle */,
+				0603A1BCA2F3F10FB262C03A29C27048 /* TimelineTableViewCell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		20582EC06DC6D9C15B83E7AA029075FE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				62C59D84BAF7157C86B7CB1DCC5B38CA /* Pods-UrAge */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2B16C3118B8451D1F471420EC1C17C1F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D1F1DDC764CE7DC1A9D76E1D9A45DD59 /* CariocaMenu */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		62C59D84BAF7157C86B7CB1DCC5B38CA /* Pods-UrAge */ = {
@@ -110,18 +150,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		78EBE1C5229D93CC4DB85157AF213B27 /* Support Files */ = {
+		7B8E0909492AACC1CEA4E8C30CF6B308 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7F611AFB3E339BF82766116C9B0251DD /* CariocaMenu.modulemap */,
-				3699400C10594C5B8F0D76F6C1A2EB9B /* CariocaMenu.xcconfig */,
-				B46DCF174C149AE6EBC6B98131B42097 /* CariocaMenu-dummy.m */,
-				F05F56468AE4150959ABECAA5249792E /* CariocaMenu-prefix.pch */,
-				ED5235AF630FA6DE8EAD8D7EBB8BBFB4 /* CariocaMenu-umbrella.h */,
-				B0AB78C7ED34C34241A404F69CFBC2B4 /* Info.plist */,
+				4A45E87761755FC4DF7AD7196CBE11C1 /* Info.plist */,
+				34C05BF774D6ACC2E97B6CE04E0D4F6B /* ResourceBundle-TimelineTableViewCell-Info.plist */,
+				07CA66DC59A2D8DDD013B9D76591147E /* TimelineTableViewCell.modulemap */,
+				7FDB2BA35E1AB216A4D3C6B631AE4CA3 /* TimelineTableViewCell.xcconfig */,
+				450EDD44F03C2DE968A452CD4858D980 /* TimelineTableViewCell-dummy.m */,
+				8422A09C52745301AE813E8529C387F5 /* TimelineTableViewCell-prefix.pch */,
+				81823914EB156DF2DC855CF18997E4C8 /* TimelineTableViewCell-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CariocaMenu";
+			path = "../Target Support Files/TimelineTableViewCell";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -129,19 +170,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2B16C3118B8451D1F471420EC1C17C1F /* Pods */,
-				9B3B7D242044B90A0A0C7650FCB72EA9 /* Products */,
+				DBA6CBCD049BFCAE66A2724289B3654D /* Pods */,
+				1D9312F3590D38B2E5CEF7A00F4410B4 /* Products */,
 				20582EC06DC6D9C15B83E7AA029075FE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9B3B7D242044B90A0A0C7650FCB72EA9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2E9021260F25B33B7944745190C113E0 /* CariocaMenu.framework */,
-				E7BF1C60137E2E1D1C2880D841252F0D /* Pods_UrAge.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -152,69 +184,96 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1F1DDC764CE7DC1A9D76E1D9A45DD59 /* CariocaMenu */ = {
+		DBA6CBCD049BFCAE66A2724289B3654D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				78EBE1C5229D93CC4DB85157AF213B27 /* Support Files */,
+				0C7F111EF770EF061CC334FC12F5479C /* TimelineTableViewCell */,
 			);
-			path = CariocaMenu;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F95DD42318223BDEBBD3A6DFF6825522 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF2ACDD923F05C7F073953BE16364832 /* TimelineTableViewCell.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DF540D60E513D4BEDC7DD9000F7E77C /* Headers */ = {
+		81704118D3B6074E69309456754BE0E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE142DDBEBCBBD595988871E4941B50 /* Pods-UrAge-umbrella.h in Headers */,
+				491C9FD54F192655BDF97F31B2324961 /* Pods-UrAge-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81658164704BFD9CB17CA7ECA5FEC514 /* Headers */ = {
+		8244D42EAD433BED105DC4B2F0F61106 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57808522A1DEDEB132E275ADD5D93B9 /* CariocaMenu-umbrella.h in Headers */,
+				7BEA71630E7E579C628E74FE9C34AA19 /* TimelineTableViewCell-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		392501B24C7CD9DD3837F830B7FE6E57 /* CariocaMenu */ = {
+		897383C1C37C0727D96A95AC939B3F12 /* TimelineTableViewCell-TimelineTableViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2504D83DA1B7DEEA56B354E209CAF342 /* Build configuration list for PBXNativeTarget "CariocaMenu" */;
+			buildConfigurationList = C7B9F19A4A0708096B0D0FF8FB994039 /* Build configuration list for PBXNativeTarget "TimelineTableViewCell-TimelineTableViewCell" */;
 			buildPhases = (
-				694F342FA65037CC6F9E08B2563BFD13 /* Sources */,
-				23056D6415C7F53A3F96E054F4FF45C1 /* Frameworks */,
-				81658164704BFD9CB17CA7ECA5FEC514 /* Headers */,
+				C8E8330149C6C047CADCF9C1E7B3B24E /* Sources */,
+				29D2D150DAB112C4BA3663BD5549DB2C /* Frameworks */,
+				12F51509F771A5F0C37014B50FF3E17C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CariocaMenu;
-			productName = CariocaMenu;
-			productReference = 2E9021260F25B33B7944745190C113E0 /* CariocaMenu.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "TimelineTableViewCell-TimelineTableViewCell";
+			productName = "TimelineTableViewCell-TimelineTableViewCell";
+			productReference = B4490DADAB24C909502B51787B9E9163 /* TimelineTableViewCell.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
-		655771D4CAB91A755EEE96D294D13332 /* Pods-UrAge */ = {
+		B9700D570E64F0F22F1589B38ADBF729 /* Pods-UrAge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89809562B9BE8A9E9F57AA558736AE58 /* Build configuration list for PBXNativeTarget "Pods-UrAge" */;
+			buildConfigurationList = C5ACFB7042DA4C3EA270A256145A962F /* Build configuration list for PBXNativeTarget "Pods-UrAge" */;
 			buildPhases = (
-				97010E6BFFAFA802B40DC3BF62345443 /* Sources */,
-				8072555318AB372DF967395061ACE7D2 /* Frameworks */,
-				2DF540D60E513D4BEDC7DD9000F7E77C /* Headers */,
+				AB36F7675F5D2BE8B5B5981BCBC78D4F /* Sources */,
+				AD8DD5B16F819F672C56628ED7E960F0 /* Frameworks */,
+				81704118D3B6074E69309456754BE0E3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DDAB613F32E303F479F75CD31E83A309 /* PBXTargetDependency */,
+				96BFAAF855F3B9961B3D9B2A7A3A3B5B /* PBXTargetDependency */,
 			);
 			name = "Pods-UrAge";
 			productName = "Pods-UrAge";
-			productReference = E7BF1C60137E2E1D1C2880D841252F0D /* Pods_UrAge.framework */;
+			productReference = 826012A08A0F2E5E702394BD74E6B6DF /* Pods_UrAge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D23F43EA5C59C7C6EF44FA7ABA885C2E /* TimelineTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 613AA7D6EAEED0D3A17753607A1BA9E8 /* Build configuration list for PBXNativeTarget "TimelineTableViewCell" */;
+			buildPhases = (
+				DF95BD2AC595721C160C1005E1E03879 /* Sources */,
+				8CE5BD87CF236F2CFB174914F3D12EC7 /* Frameworks */,
+				2019AAFC27C18EEE59DB112FE61EC6DB /* Resources */,
+				8244D42EAD433BED105DC4B2F0F61106 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0987356118BD6BFD1390C3CD7EC9149 /* PBXTargetDependency */,
+			);
+			name = TimelineTableViewCell;
+			productName = TimelineTableViewCell;
+			productReference = 0603A1BCA2F3F10FB262C03A29C27048 /* TimelineTableViewCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -225,11 +284,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					392501B24C7CD9DD3837F830B7FE6E57 = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -239,81 +293,81 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9B3B7D242044B90A0A0C7650FCB72EA9 /* Products */;
+			productRefGroup = 1D9312F3590D38B2E5CEF7A00F4410B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				392501B24C7CD9DD3837F830B7FE6E57 /* CariocaMenu */,
-				655771D4CAB91A755EEE96D294D13332 /* Pods-UrAge */,
+				B9700D570E64F0F22F1589B38ADBF729 /* Pods-UrAge */,
+				D23F43EA5C59C7C6EF44FA7ABA885C2E /* TimelineTableViewCell */,
+				897383C1C37C0727D96A95AC939B3F12 /* TimelineTableViewCell-TimelineTableViewCell */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		694F342FA65037CC6F9E08B2563BFD13 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		12F51509F771A5F0C37014B50FF3E17C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D206E56D446299FDB7D4F6D232DD4D /* CariocaMenu-dummy.m in Sources */,
+				69C50756F7C6ED4F01A3EAD9A17FA3CD /* TimelineTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97010E6BFFAFA802B40DC3BF62345443 /* Sources */ = {
+		2019AAFC27C18EEE59DB112FE61EC6DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84BE383D86DFAA63283B568212712C0 /* TimelineTableViewCell.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB36F7675F5D2BE8B5B5981BCBC78D4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD5E84071CE6E535F5EDEBA66C26F33 /* Pods-UrAge-dummy.m in Sources */,
+				43161CB6251B7D55C1FC10198C761642 /* Pods-UrAge-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E8330149C6C047CADCF9C1E7B3B24E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF95BD2AC595721C160C1005E1E03879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62BA2261D4854C1AEFA68D7C4CC5E9F8 /* Timeline.swift in Sources */,
+				61F7BEC6EF8F3747F3DDAE90A02F3748 /* TimelinePoint.swift in Sources */,
+				D35139A1F2B1740D14E5EA9BA84D1670 /* TimelineTableViewCell-dummy.m in Sources */,
+				366A39D9537C0394FC7CF470FF82FCEB /* TimelineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DDAB613F32E303F479F75CD31E83A309 /* PBXTargetDependency */ = {
+		96BFAAF855F3B9961B3D9B2A7A3A3B5B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CariocaMenu;
-			target = 392501B24C7CD9DD3837F830B7FE6E57 /* CariocaMenu */;
-			targetProxy = 7063A7A72B5500E87E4FFFCDED085DD0 /* PBXContainerItemProxy */;
+			name = TimelineTableViewCell;
+			target = D23F43EA5C59C7C6EF44FA7ABA885C2E /* TimelineTableViewCell */;
+			targetProxy = 295DF887A5A9B89255C879D75699FE62 /* PBXContainerItemProxy */;
+		};
+		E0987356118BD6BFD1390C3CD7EC9149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TimelineTableViewCell-TimelineTableViewCell";
+			target = 897383C1C37C0727D96A95AC939B3F12 /* TimelineTableViewCell-TimelineTableViewCell */;
+			targetProxy = 7719C58B5714EC73A37AE82A24CBB528 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BFCE594256924E82901B6531749FE91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 523DCE12B5D145B62B2BB3B8D2E34455 /* Pods-UrAge.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-UrAge/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UrAge/Pods-UrAge.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_UrAge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		1AB42A0326E21F99153EC17082B91291 /* Release */ = {
+		1D1CD5A94FE3F822A44E36BA5139A498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 850167537EE9FC84DE1D8BDDB6373D72 /* Pods-UrAge.release.xcconfig */;
 			buildSettings = {
@@ -393,11 +447,27 @@
 			};
 			name = Release;
 		};
-		523B38BC7937B4E2B0811231762202B2 /* Debug */ = {
+		533296AE4DE3652D44FAF3FCBCA9435D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3699400C10594C5B8F0D76F6C1A2EB9B /* CariocaMenu.xcconfig */;
+			baseConfigurationReference = 7FDB2BA35E1AB216A4D3C6B631AE4CA3 /* TimelineTableViewCell.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimelineTableViewCell";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/ResourceBundle-TimelineTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6D8F3270BE963600C5F80522E176F448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDB2BA35E1AB216A4D3C6B631AE4CA3 /* TimelineTableViewCell.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -409,14 +479,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CariocaMenu/CariocaMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CariocaMenu/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CariocaMenu/CariocaMenu.modulemap";
+				MODULEMAP_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CariocaMenu;
+				PRODUCT_NAME = TimelineTableViewCell;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -427,36 +497,20 @@
 			};
 			name = Debug;
 		};
-		6FFAF98771691D93C236C19319FB95AF /* Release */ = {
+		85989AB980281B8C68A3770876B9841B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3699400C10594C5B8F0D76F6C1A2EB9B /* CariocaMenu.xcconfig */;
+			baseConfigurationReference = 7FDB2BA35E1AB216A4D3C6B631AE4CA3 /* TimelineTableViewCell.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimelineTableViewCell";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CariocaMenu/CariocaMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CariocaMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/ResourceBundle-TimelineTableViewCell-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CariocaMenu/CariocaMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CariocaMenu;
+				PRODUCT_NAME = TimelineTableViewCell;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -500,18 +554,77 @@
 			};
 			name = Release;
 		};
+		B24658B5A5F525DC7E873A0A234F9D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FDB2BA35E1AB216A4D3C6B631AE4CA3 /* TimelineTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEC2B194A9ADA52502C9ED54EAB60243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523DCE12B5D145B62B2BB3B8D2E34455 /* Pods-UrAge.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UrAge/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UrAge/Pods-UrAge.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UrAge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2504D83DA1B7DEEA56B354E209CAF342 /* Build configuration list for PBXNativeTarget "CariocaMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				523B38BC7937B4E2B0811231762202B2 /* Debug */,
-				6FFAF98771691D93C236C19319FB95AF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -521,11 +634,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89809562B9BE8A9E9F57AA558736AE58 /* Build configuration list for PBXNativeTarget "Pods-UrAge" */ = {
+		613AA7D6EAEED0D3A17753607A1BA9E8 /* Build configuration list for PBXNativeTarget "TimelineTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BFCE594256924E82901B6531749FE91 /* Debug */,
-				1AB42A0326E21F99153EC17082B91291 /* Release */,
+				6D8F3270BE963600C5F80522E176F448 /* Debug */,
+				B24658B5A5F525DC7E873A0A234F9D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5ACFB7042DA4C3EA270A256145A962F /* Build configuration list for PBXNativeTarget "Pods-UrAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC2B194A9ADA52502C9ED54EAB60243 /* Debug */,
+				1D1CD5A94FE3F822A44E36BA5139A498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B9F19A4A0708096B0D0FF8FB994039 /* Build configuration list for PBXNativeTarget "TimelineTableViewCell-TimelineTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533296AE4DE3652D44FAF3FCBCA9435D /* Debug */,
+				85989AB980281B8C68A3770876B9841B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

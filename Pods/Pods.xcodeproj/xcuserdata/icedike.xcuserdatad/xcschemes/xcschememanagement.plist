@@ -4,12 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CariocaMenu.xcscheme</key>
+		<key>Pods-UrAge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-UrAge.xcscheme</key>
+		<key>TimelineTableViewCell-TimelineTableViewCell.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TimelineTableViewCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>392501B24C7CD9DD3837F830B7FE6E57</key>
+		<key>897383C1C37C0727D96A95AC939B3F12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>655771D4CAB91A755EEE96D294D13332</key>
+		<key>B9700D570E64F0F22F1589B38ADBF729</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D23F43EA5C59C7C6EF44FA7ABA885C2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

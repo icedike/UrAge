@@ -6,5 +6,5 @@ target 'UrAge' do
   use_frameworks!
 
   # Pods for UrAge
-  pod 'CariocaMenu'
+  pod 'TimelineTableViewCell'
 end

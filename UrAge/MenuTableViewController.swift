@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CariocaMenu
+
 
 class MenuTableViewController: UITableViewController, CariocaMenuDataSource {
     var iconNames = Array<String>()

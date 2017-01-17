@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '392501B24C7CD9DD3837F830B7FE6E57'
-               BlueprintName = 'CariocaMenu'
+               BlueprintIdentifier = '897383C1C37C0727D96A95AC939B3F12'
+               BlueprintName = 'TimelineTableViewCell-TimelineTableViewCell'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'CariocaMenu.framework'>
+               BuildableName = 'TimelineTableViewCell.bundle'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

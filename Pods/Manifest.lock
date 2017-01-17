@@ -1,12 +1,12 @@
 PODS:
-  - CariocaMenu (1.0)
+  - TimelineTableViewCell (1.0.0)
 
 DEPENDENCIES:
-  - CariocaMenu
+  - TimelineTableViewCell
 
 SPEC CHECKSUMS:
-  CariocaMenu: 110766cacd3963b2f0a0c563c7b1937b62919bf5
+  TimelineTableViewCell: 019e1ece631d319f5634542f54bce05e72f4b126
 
-PODFILE CHECKSUM: d08310e07286bc5004e84823b570cd7ef8a2e390
+PODFILE CHECKSUM: 73bea7753d322468f6975173cbe94773573dd387
 
 COCOAPODS: 1.1.1
