@@ -11,32 +11,20 @@ import UIKit
 
 extension ViewController{
     
-    func initialSettingForUI(){
-        // setting for birthday date textfield
-        bdDatePickerTextfield.inputView = datePicker
-        bdDatePickerTextfield.inputAccessoryView = toolbar
-        
-        
-        // setting for datePicker
-        datePicker.backgroundColor = UIColor.white
-        
-        // setting for toolbar
-        
-
-        
-    }
-    
     func initialSettingForBD(){
+        
+        birthdayLabel.alpha = 0 
         
         //initial the textfield when user use in the first time
         if let userBirthday = UserDefaults.standard.string(forKey: "birthday"){
-            bdDatePickerTextfield.text = userBirthday
+            birthdayLabel.text = userBirthday
+            
         }else{
             let dateFormatter = DateFormatter()
             let today = Date()
             dateFormatter.dateFormat = "MM-dd-yyyy"
             let todayString = dateFormatter.string(from: today)
-            bdDatePickerTextfield.text = todayString
+            birthdayLabel.text = todayString
             UserDefaults.standard.set(todayString, forKey: "birthday")
             UserDefaults.standard.synchronize()
         }
@@ -49,7 +37,7 @@ extension ViewController{
     }
     
     func showUrAge(){
-        let birthdayString = bdDatePickerTextfield.text!
+        let birthdayString = birthdayLabel.text!
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM-dd-yyyy"
         let birthday = dateFormatter.date(from: birthdayString)!

@@ -36,7 +36,16 @@ class BaseViewController: UIViewController {
         menuCtrl.cariocaMenu = menu
         
         //show the first demo controller
-        showDemoControllerForIndex(0)
+        
+        
+        if UserDefaults.standard.string(forKey: "birthday") != nil{
+            showDemoControllerForIndex(0)
+            
+        }else{
+            showDemoControllerForIndex(1)
+        }
+        
+        
 
     }
 
@@ -44,7 +53,7 @@ class BaseViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         menu?.addInView(self.view)
         menu?.isDraggableVertically = true
-        menu?.showIndicator(.right, position: .center, offset: 30)
+        menu?.showIndicator(.right, position: .top, offset: 30)
         menu?.addGestureHelperViews([.left,.right], width:30)
     }
     override func didReceiveMemoryWarning() {
