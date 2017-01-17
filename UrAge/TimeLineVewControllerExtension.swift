@@ -35,6 +35,8 @@ extension TimeLineViewController{
         do {
             let results = try context.fetch(request) as! [AgePhoto]
             if results.count > 0 {
+                data = [:]
+                year = []
                 print("\(results.count) saved in coredata")
                 guard var startYear = results.first?.year else{
                     print("fail to get the first year")
@@ -55,6 +57,11 @@ extension TimeLineViewController{
                         data[photoYear]?.append((TimelinePoint(), UIColor.black, afterYear, "", nil, image))
                     }
                 }
+            }else{
+                //give default value when user did not take any photos
+                year.append("0")
+                data["0"] = []
+                data["0"]?.append((TimelinePoint(), UIColor.black,"Tap the RED button on About yourself", "", nil, nil))
             }
         } catch {
             print("read photo data failed")

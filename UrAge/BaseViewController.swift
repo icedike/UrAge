@@ -27,7 +27,7 @@ class BaseViewController: UIViewController {
         //Set the tableviewcontroller for the menu
         menu = CariocaMenu(dataSource: menuCtrl)
         
-        menu?.selectedIndexPath = IndexPath(item: 0, section: 0)
+        
         
         menu?.delegate = self
         menu?.boomerang = .none
@@ -40,9 +40,10 @@ class BaseViewController: UIViewController {
         
         if UserDefaults.standard.string(forKey: "birthday") != nil{
             showDemoControllerForIndex(0)
-            
+            menu?.selectedIndexPath = IndexPath(item: 0, section: 0)
         }else{
-            showDemoControllerForIndex(1)
+            showDemoControllerForIndex(2)
+            menu?.selectedIndexPath = IndexPath(item: 2, section: 0)
         }
         
         

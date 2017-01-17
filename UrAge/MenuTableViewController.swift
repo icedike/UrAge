@@ -23,14 +23,14 @@ class MenuTableViewController: UITableViewController, CariocaMenuDataSource {
         self.clearsSelectionOnViewWillAppear = true
         
         iconNames.append("about")
-        iconNames.append("settings")
         iconNames.append("camera")
+        iconNames.append("settings")
         
 
         
         menuNames.append("About yourself")
+        menuNames.append("Timeline Photos")
         menuNames.append("Settings")
-        menuNames.append("Camera")
     }
     
     // MARK: - Table view data source

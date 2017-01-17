@@ -90,14 +90,14 @@ extension BaseViewController{
                 demoContentController = showAge as UIViewController
             }
             break
-        case 1:
+        case 2:
             if let showSetting = self.storyboard?.instantiateViewController(withIdentifier: "SettingViewController") as? SettingViewController{
                 self.addChildViewController(showSetting)
                 self.view.addSubview(showSetting.view)
                 demoContentController = showSetting as UIViewController
             }
             break
-        case 2:
+        case 1:
             if let showTimeLine = self.storyboard?.instantiateViewController(withIdentifier: "TimeLineViewController") as? TimeLineViewController{
                 self.addChildViewController(showTimeLine)
                 self.view.addSubview(showTimeLine.view)

@@ -39,8 +39,9 @@ class ViewController: UIViewController {
         let controller = UIImagePickerController()
         controller.sourceType = .camera
         controller.delegate = self
-        self.present(controller, animated: true, completion: nil)
-        
+        DispatchQueue.main.async {
+            self.present(controller, animated: true, completion: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -65,13 +65,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvN-x3-H0G">
-                                <rect key="frame" x="182" y="651" width="50" height="50"/>
+                                <rect key="frame" x="177" y="641" width="60" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.01447045684" blue="0.031366949050000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="bwn-p9-Fnm"/>
-                                    <constraint firstAttribute="height" constant="50" id="wzF-x1-VhD"/>
+                                    <constraint firstAttribute="width" constant="60" id="bwn-p9-Fnm"/>
+                                    <constraint firstAttribute="height" constant="60" id="wzF-x1-VhD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="+"/>
                                 <connections>
