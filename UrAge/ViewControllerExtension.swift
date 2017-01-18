@@ -36,6 +36,7 @@ extension ViewController{
                              repeats: true)
     }
     
+    // show age in the ViewController
     func showUrAge(){
         let birthdayString = birthdayLabel.text!
         let dateFormatter = DateFormatter()
@@ -68,9 +69,15 @@ extension ViewController{
         yearLabel.text = String(years.year!)
     }
     
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }  
+     // use camer to take the picture
+    func takePhoto(){
+        let controller = UIImagePickerController()
+        controller.sourceType = .camera
+        controller.delegate = self
+        DispatchQueue.main.async {
+            self.present(controller, animated: true, completion: nil)
+        }
+    }
     
 }
 extension ViewController:UIImagePickerControllerDelegate,UINavigationControllerDelegate{

@@ -84,10 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/GSMessages/GSMessages.framework"
   install_framework "$BUILT_PRODUCTS_DIR/INSPersistentContainer/INSPersistentContainer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TimelineTableViewCell/TimelineTableViewCell.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/GSMessages/GSMessages.framework"
   install_framework "$BUILT_PRODUCTS_DIR/INSPersistentContainer/INSPersistentContainer.framework"
   install_framework "$BUILT_PRODUCTS_DIR/TimelineTableViewCell/TimelineTableViewCell.framework"
 fi

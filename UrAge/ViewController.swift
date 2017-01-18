@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+import AVFoundation
+import GSMessages
 
 class ViewController: UIViewController {
 
@@ -35,13 +36,32 @@ class ViewController: UIViewController {
     }
     @IBAction func addPhotoAction(_ sender: UIButton) {
         
-        // use camer to take the picture
-        let controller = UIImagePickerController()
-        controller.sourceType = .camera
-        controller.delegate = self
-        DispatchQueue.main.async {
-            self.present(controller, animated: true, completion: nil)
+        
+        if AVCaptureDevice.authorizationStatus(forMediaType: AVMediaTypeVideo) ==  AVAuthorizationStatus.authorized
+        {
+            // Already Authorized
+             takePhoto()
         }
+        else
+        {
+            AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo, completionHandler: { (granted :Bool) -> Void in
+                if granted == true
+                {
+                    // User granted
+                    self.takePhoto()
+                }
+                else
+                {
+                    // User Rejected
+                    DispatchQueue.main.async {
+                        self.showMessage("Fail to access the camera", type: .warning)
+                    }
+                    
+                    
+                }
+            });
+        }
+       
     }
 
     override func didReceiveMemoryWarning() {

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GSMessages.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>INSPersistentContainer.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>331513E64281A52466734854E9A6D5ED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>511C8C43974BF980E3DDFC85EA96E4F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6C87E92024BDAB7AFA6BE758BE1393D0</key>
+		<key>80A1AAD476BC6D0D87976DE91984E49D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D0C4BD0D3E8CE812E545B9BAF5AA64B</key>
+		<key>926D13FE3EAA084F125C8CA8F40287EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F68F98EB3E783435D14929388EB817A7</key>
+		<key>A46157F4DC27189A6A0D54EA21D4B784</key>
 		<dict>
 			<key>primary</key>
 			<true/>

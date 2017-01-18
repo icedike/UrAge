@@ -28,7 +28,7 @@ class MenuTableViewController: UITableViewController, CariocaMenuDataSource {
         
 
         
-        menuNames.append("About yourself")
+        menuNames.append("About Yourself")
         menuNames.append("Timeline Photos")
         menuNames.append("Settings")
     }

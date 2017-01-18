@@ -8,4 +8,5 @@ target 'UrAge' do
   # Pods for UrAge
   pod 'TimelineTableViewCell'
   pod 'INSPersistentContainer'
+  pod 'GSMessages'
 end

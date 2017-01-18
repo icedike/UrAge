@@ -1,15 +1,18 @@
 PODS:
+  - GSMessages (1.3.1)
   - INSPersistentContainer (1.0.2)
   - TimelineTableViewCell (1.0.0)
 
 DEPENDENCIES:
+  - GSMessages
   - INSPersistentContainer
   - TimelineTableViewCell
 
 SPEC CHECKSUMS:
+  GSMessages: 619a1a97d2dec6e22ffc964e9a521765bfe26c02
   INSPersistentContainer: 7e04a0d332ba075441ce0ee73d584ce84d76ac23
   TimelineTableViewCell: 019e1ece631d319f5634542f54bce05e72f4b126
 
-PODFILE CHECKSUM: 5f180080ec9044116b9fc364b5ae239b9d15166f
+PODFILE CHECKSUM: 0b03338486db77ed4d66b72c7437ec960afa9f2d
 
 COCOAPODS: 1.1.1

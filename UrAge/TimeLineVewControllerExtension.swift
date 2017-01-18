@@ -109,6 +109,8 @@ extension TimeLineViewController:UITableViewDelegate,UITableViewDataSource{
         cell.descriptionLabel.text = description
         cell.lineInfoLabel.text = lineInfo
         if let thumbnail = thumbnail {
+            
+            cell.thumbnailImageView.layer.cornerRadius = 20
             cell.thumbnailImageView.image = thumbnail
         }
         
