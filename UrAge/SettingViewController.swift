@@ -10,6 +10,7 @@ import UIKit
 
 class SettingViewController: UIViewController {
     
+    @IBOutlet weak var guidView: UIView!
     @IBOutlet var toolbar: UIToolbar!
     @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet weak var bdDatePickerTextfield: UITextField!
@@ -47,9 +48,24 @@ class SettingViewController: UIViewController {
         
         bdDatePickerTextfield.tintColor = UIColor.clear
         
+        //show guid view in first time
+        if UserDefaults.standard.bool(forKey: "firstSettingViewController"){
+            guidView.isHidden = true
+        }else{
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dissMissGuidView))
+            guidView.addGestureRecognizer(tapGesture)
+            UserDefaults.standard.set(true, forKey: "firstSettingViewController")
+        }
+        
+        
         // Do any additional setup after loading the view.
     }
 
+    //dissmiss guid view
+    func dissMissGuidView(){
+        guidView.isHidden = true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

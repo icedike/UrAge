@@ -13,6 +13,7 @@ import GSMessages
 class ViewController: UIViewController {
 
 
+    @IBOutlet weak var guidView: UIView!
     @IBOutlet weak var addPhotoBtn: UIButton!
     @IBOutlet weak var birthdayLabel: UILabel!
 
@@ -33,6 +34,19 @@ class ViewController: UIViewController {
         //make button to circle 
         addPhotoBtn.layer.cornerRadius = addPhotoBtn.frame.width/2
         
+        //show guid view in first time
+        if UserDefaults.standard.bool(forKey: "firstViewController"){
+            guidView.isHidden = true
+        }else{
+            let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dissMissGuidView))
+            guidView.addGestureRecognizer(tapGesture)
+            UserDefaults.standard.set(true, forKey: "firstViewController")
+        }
+
+    }
+    //dissmiss guid view
+    func dissMissGuidView(){
+        guidView.isHidden = true
     }
     @IBAction func addPhotoAction(_ sender: UIButton) {
         
@@ -63,7 +77,7 @@ class ViewController: UIViewController {
         }
        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

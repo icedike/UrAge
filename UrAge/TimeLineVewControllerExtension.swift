@@ -61,7 +61,7 @@ extension TimeLineViewController{
                 //give default value when user did not take any photos
                 year.append("0")
                 data["0"] = []
-                data["0"]?.append((TimelinePoint(), UIColor.black,"Tap the RED button on About yourself", "", nil, nil))
+                data["0"]?.append((TimelinePoint(), UIColor.black,"Go to \"About Yourself\" to take photos", "", nil, nil))
             }
         } catch {
             print("read photo data failed")

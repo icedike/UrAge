@@ -72,6 +72,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CA827D41E30E03B006E03C6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4CD1DF6A1E2B5485004624D0 /* ViewController.swift */,
+				4CD1DFBE1E2DE350004624D0 /* MenuTableViewController.swift */,
+				4CD1DFC21E2DF348004624D0 /* BaseViewController.swift */,
+				4CD1DFC61E2DF757004624D0 /* SettingViewController.swift */,
+				4CD1DFCA1E2E29D1004624D0 /* TimeLineViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4CA827D51E30E054006E03C6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */,
+				4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */,
+				4CD1DFC41E2DF3BB004624D0 /* BaseViewControllerExtension.swift */,
+				4CA827C41E2E9380006E03C6 /* SettingViewControllerExtension.swift */,
+				4CD1DFD41E2E3206004624D0 /* TimeLineVewControllerExtension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		4CA827D61E30E063006E03C6 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				4CD1DFC01E2DED3A004624D0 /* MenuTableViewCell.swift */,
+				4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */,
+				4CA827B91E2E7303006E03C6 /* EventPhoto.swift */,
+				4CA827C21E2E7DB7006E03C6 /* DataManager.swift */,
+				4CD1DF681E2B5485004624D0 /* AppDelegate.swift */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
 		4CD1DF5C1E2B5485004624D0 = {
 			isa = PBXGroup;
 			children = (
@@ -95,26 +131,14 @@
 		4CD1DF671E2B5485004624D0 /* UrAge */ = {
 			isa = PBXGroup;
 			children = (
-				4CD1DF681E2B5485004624D0 /* AppDelegate.swift */,
-				4CD1DF6A1E2B5485004624D0 /* ViewController.swift */,
-				4CD1DF7A1E2B57E5004624D0 /* ViewControllerExtension.swift */,
+				4CA827D41E30E03B006E03C6 /* Controller */,
+				4CA827D51E30E054006E03C6 /* Extension */,
+				4CA827D61E30E063006E03C6 /* Share */,
 				4CD1DF6C1E2B5485004624D0 /* Main.storyboard */,
-				4CD1DF6F1E2B5485004624D0 /* Assets.xcassets */,
 				4CD1DF711E2B5485004624D0 /* LaunchScreen.storyboard */,
+				4CD1DF6F1E2B5485004624D0 /* Assets.xcassets */,
 				4CD1DF741E2B5485004624D0 /* Info.plist */,
-				4CD1DF7C1E2B9349004624D0 /* UIExtension.swift */,
-				4CD1DFBE1E2DE350004624D0 /* MenuTableViewController.swift */,
-				4CD1DFC01E2DED3A004624D0 /* MenuTableViewCell.swift */,
-				4CD1DFC21E2DF348004624D0 /* BaseViewController.swift */,
-				4CD1DFC41E2DF3BB004624D0 /* BaseViewControllerExtension.swift */,
-				4CD1DFC61E2DF757004624D0 /* SettingViewController.swift */,
-				4CA827C41E2E9380006E03C6 /* SettingViewControllerExtension.swift */,
-				4CD1DFC81E2E0109004624D0 /* CariocaMenu.swift */,
-				4CD1DFCA1E2E29D1004624D0 /* TimeLineViewController.swift */,
-				4CD1DFD41E2E3206004624D0 /* TimeLineVewControllerExtension.swift */,
-				4CA827B91E2E7303006E03C6 /* EventPhoto.swift */,
 				4CA827BB1E2E7B44006E03C6 /* UrAge.xcdatamodeld */,
-				4CA827C21E2E7DB7006E03C6 /* DataManager.swift */,
 			);
 			path = UrAge;
 			sourceTree = "<group>";

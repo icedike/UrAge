@@ -22,14 +22,14 @@ class MenuTableViewController: UITableViewController, CariocaMenuDataSource {
         // Preserve selection between presentations
         self.clearsSelectionOnViewWillAppear = true
         
-        iconNames.append("about")
         iconNames.append("camera")
+        iconNames.append("about")
         iconNames.append("settings")
         
 
         
-        menuNames.append("About Yourself")
-        menuNames.append("Timeline Photos")
+        menuNames.append("Camera")
+        menuNames.append("Timeline")
         menuNames.append("Settings")
     }
     
