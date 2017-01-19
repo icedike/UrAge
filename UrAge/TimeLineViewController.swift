@@ -30,7 +30,7 @@ class TimeLineViewController: UIViewController {
         }else{
             let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dissMissGuidView))
             guidView.addGestureRecognizer(tapGesture)
-            UserDefaults.standard.set(true, forKey: "firstTimeLineViewController")
+            UserDefaults.standard.set(true, forKey: "firstTimelineViewController")
         }
         // Do any additional setup after loading the view.
     }
