@@ -6,7 +6,7 @@ Use timer to calculate the period of time from a specified date to now continuou
 TimelineTableViewCell, INSPersistentContainer, GSMessages
 
 **Demo**  
-![](https://github.com/icedike/UrAge/blob/master/README/demo_v1.2.2.gif)
+![](https://github.com/icedike/UrAge/blob/universal/README/demo_v1.2.2.gif)
 
 [**Available on the Apple Store:UrAge**](https://itunes.apple.com/us/app/urage/id1195425155?ls=1&mt=8)  
-![](https://github.com/icedike/UrAge/blob/master/README/UrAge_120x120.png)
+![](https://github.com/icedike/UrAge/blob/universal/README/UrAge_120x120.png)
