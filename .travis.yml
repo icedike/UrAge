@@ -1,4 +1,4 @@
-nguage: objective-c
+language: objective-c
 osx_image: xcode8
 script:
  - xcodebuild -workspace UrAge.xcworkspace -scheme UrAge -sdk iphonesimulator build
