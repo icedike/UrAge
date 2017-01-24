@@ -1,4 +1,4 @@
-
+![](https://travis-ci.org/icedike/UrAge.svg?branch=master)
 # UrAge
 ![](https://github.com/icedike/UrAge/blob/universal/README/UrAge_120x120.png)
 
